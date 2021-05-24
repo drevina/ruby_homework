@@ -1,7 +1,7 @@
 module Manufacturer
 
-  def set_manufacturer(m_name)
-    @manufacturer = m_name
+  def set_manufacturer(name)
+    @manufacturer = name
   end
 
   def display_manufacturer
