@@ -18,7 +18,7 @@ class Train
     @number = number.to_s
     @wagons = []
     @speed = 0
-    @@all_trains < self.number
+    @@all_trains << self.number
     register_instance
   end
 
