@@ -8,7 +8,7 @@ class Station
   def initialize(station_name)
     @station_name = station_name
     @trains = []
-    @@all_stations < self.station_name
+    @@all_stations << self.station_name
     register_instance
   end
 
