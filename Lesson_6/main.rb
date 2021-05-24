@@ -1,3 +1,5 @@
+require_relative 'module_manufacturer'
+require_relative 'module_instance_counter'
 require_relative 'train'
 require_relative 'station'
 require_relative 'route'
@@ -6,8 +8,6 @@ require_relative 'cargo_wagon'
 require_relative 'cargo_train'
 require_relative 'passenger_wagon'
 require_relative 'passenger_train'
-require_relative 'module_manufacturer'
-require_relative 'module_instance_counter'
 
 @all_stations_list = []
 @all_routes = []
